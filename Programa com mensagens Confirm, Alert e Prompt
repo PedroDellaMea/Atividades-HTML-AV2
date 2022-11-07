@@ -6,7 +6,7 @@
 	<script>
     function Confirm() {
 		var opc;
-		opc=confirm("Mensagemn de Confirm");
+		opc=confirm("Mensagem de Confirm");
         document.write(opc);
     }
 	</script>
