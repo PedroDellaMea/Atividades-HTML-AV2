@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang=“pt-br”>
+<head>
+	<title>Curso de Javascript</title>
+	<meta charset=“UTF-8”>
+	<script>
+    function Confirm() {
+		var opc;
+		opc=confirm("Mensagemn de Confirm");
+        document.write(opc);
+    }
+	</script>
+	<script>
+    function Alert() {
+		alert("Mensagem de Alert");
+    }
+	</script>
+	<script>
+    function Prompt() {
+		var nome;
+		nome=prompt("Mensagem de Prompt","Digite algo aqui");
+		document.write(nome);
+    }
+	</script>
+</head>
+<body>
+
+<button onclick="Confirm()">Confirm</button>
+<br><br>
+<button onclick="Alert()">Alert</button>
+<br><br>
+<button onclick="Prompt()">Prompt</button>
+
+</body>
+</html> 
